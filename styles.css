@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:max-content;
+}
+.main .box1 {
+  display: flex;
+  justify-content: center;
+  height:  max-content;
+  width: 60%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.pic img {
+  width: 100%;
+  border-radius: 14px;
+}
+.pic h1 {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.pic p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 480px) {
+  .pic h1 {
+    font-weight: revert;
+    font-size: larger;
+  }
+}
+@media screen and (min-width: 480px) {
+  .pic p {
+    font-weight: revert;
+    font-size: larger;
+  }
+}
+
+.preparationTime {
+  margin-top: 20px;
+  background-color: hsl(30, 54%, 90%);
+  height: max-content;
+  border-radius: 5px;
+  padding: 15px;
+  row-gap: 10px;
+}
+.preparationTime h1 {
+  color: brown;
+}
+.preparationTime ul li {
+  margin-top: 15px;
+}
+.list {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.box2 h1 {
+  color: brown;
+  margin-left: -10px;
+}
+.box2 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+::marker {
+  color: brown;
+}
+.box2 li {
+  margin-top: 15px;
+}
+.instructions h1{
+  margin-top: 20px;
+  color: brown;
+}
+.instructions ol{
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.instructions ol li{
+  margin-top: 15px;
+}
+.box3{
+  margin-top: 20px;
+}
+.box3 h1{
+  color: brown;
+  margin-bottom: 20px;
+}
+.box3 p{
+  
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.cal-value{
+  margin-left: 50px;
+}
+.box4a{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.calories-value{
+  color: brown;
+}
